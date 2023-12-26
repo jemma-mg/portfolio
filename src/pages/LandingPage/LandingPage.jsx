@@ -1,9 +1,12 @@
 import React from 'react'
+import { Navbar, Landing } from '../../components'
 
 const LandingPage = () => {
   return (
     <div className='LandingPage'>
-        <h1>Landing Page</h1>
+        <Navbar />
+        {/* <h1>Landing Page</h1> */}
+        <Landing />
     </div>
   )
 }
