@@ -1,14 +1,14 @@
 .nav__container{
-    position: sticky;
-    /* background-color: rgba(221, 221, 221, 0.08); */
-    background-color: rgba(0, 182, 188, 0.5);
+    position: absolute;
+    background-color: rgba(221, 221, 221, 0.08);
     padding: 1rem;
+    width: 100vw;
 }
 
-p{
+.nav__container p{
     padding: 0rem 2rem;
     display: inline;
     text-decoration: none;
-    /* color: white; */
+    color: white;
     font-size: 1rem;
 }
