@@ -1,10 +1,14 @@
 .Landing{
     height: 60vh;
-    /* background-color: darkcyan; */
     background: linear-gradient(90deg, rgba(78,9,110,1) 0%, rgba(3,3,85,1) 46%, rgba(0,66,20,1) 100%);
 }
 
-.content{
+.squares__background{
+    width: 100vw;
+    height: 100vh;
+}
+
+.heading__content{
     display: flex;
     padding: 7rem 1rem 4rem 1rem;
     align-items: center;
@@ -12,7 +16,7 @@
     flex-direction: column;
 }
 
-h1{
+.heading__content h1{
     font-family: 'Segoe UI', Roboto, Oxygen ;
     background: -webkit-linear-gradient(45deg, deepskyblue 10%, skyblue 20%, lightseagreen 40%, mediumspringgreen 80%);
     -webkit-background-clip: text;

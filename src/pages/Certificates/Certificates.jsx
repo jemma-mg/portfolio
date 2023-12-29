@@ -1,11 +1,14 @@
 import React from 'react'
 import { Navbar } from '../../components'
+import "./Certificates.css"
 
 const Certificates = () => {
   return (
     <div className='Certificates'>
       <Navbar />
-      <h1>Certificates</h1>
+      <div className="heading__content">
+        <h1>Certificates</h1>
+      </div>
     </div>
   )
 }
