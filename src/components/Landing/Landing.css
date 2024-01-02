@@ -1,6 +1,6 @@
 .Landing{
     height: 60vh;
-    background: linear-gradient(90deg, rgba(78,9,110,1) 0%, rgba(3,3,85,1) 46%, rgba(0,66,20,1) 100%);
+    background: linear-gradient(90deg, rgba(78,9,110,1) 0%, rgba(3,3,85,1) 46%, rgb(6, 83, 88) 100%);
 }
 
 .squares__background{
